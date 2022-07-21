@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+main {
+    background-image: url(Image/backgroundimage.jpg);
+    background-size: 1549px 720px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    background-position: fixed;
+    font-size: 20px;
+}
+
+
+shopLogo {
+    background-image: url(logo/Orio.png);
+    width: 250px;
+    height: 90px;
+    top:5px;
+    left: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    margin: 50px;
+}
+
+shopName {
+    position: absolute;
+    font-family: "Brush Script MT", cursive;
+    color: #080808;
+    margin-top: 260px;
+    margin-left: 700px;
+    font-size: 100px;
+}
+
+shopDiscription {
+    position: absolute;
+    font-family: "Brush Script MT", cursive;
+    float: left;
+    margin-top: 380px;
+    margin-left: 250px;
+    margin-right: 180px;
+    font-size: 35px;
+    color: #080808;
+}
+
+comapanyAddress, PhoneNumber, URL {
+    position: absolute;
+    font-family: "Brush Script MT", cursive;
+    margin-left: 75vw;
+    font-size: 35px;
+    color: #080808;
+
+}
+comapanyAddress{
+    margin-top: 32vw;
+}
+
+PhoneNumber {
+    margin-top: 35vw;
+}
+
+URL {
+    margin-top: 38vw;
+}
+
+shopName:hover, comapanyAddress:hover, PhoneNumber:hover, URL:hover, name:hover {
+    color: #7fff00;
+    text-decoration: underline;
+}
+
+
+
+
+#c1 {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    margin-top: 780px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 0.5rem black;
+    border-radius: 1rem;
+}
+
+#c1:hover{
+    background-color: gainsboro;
+    transform: scale(1.02);
+    transition: all 1s ease;
+}
+
+#img2, #img4, #img6, #img8, #img10, #img12, #img14 {
+    width: 25%;
+    float: left;
+    padding: 20px 50px 610px 100px;
+    border: 5px solid rgb(15, 15, 15);
+    border-radius: 3%;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-size: 350px 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#c2, #c3, #c4, #c5, #c6, #c7, #c8, #c9, #c10, #c11, #c12, #c13, #c14, #c15 {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 0.5rem black;
+    border-radius: 1rem;
+}
+
+#c1:hover, #c1:hover, #c2:hover, #c3:hover, #c4:hover, #c5:hover, #c6:hover, #c7:hover, #c8:hover, #c9:hover, #c10:hover, #c11:hover, #c12:hover, #c13:hover, #c14:hover, #c15:hover {
+    background-color: gainsboro;
+    transform: scale(1.02);
+    transition: all 1s ease;
+}
+
+
+#img2 {
+    background-image: url(Image/PlayStoreCard.jpg);
+}
+
+#img1 {
+    width: 25%;
+    float: right;
+    padding: 20px 50px 610px 100px;
+    border: 5px solid rgb(15, 15, 15);
+    border-radius: 3%;
+    margin-top: 780px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-image: url(Image/pubgCard.jpg);
+    background-size: 350px 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#img3, #img5, #img7, #img9, #img11, #img13, #img15 {
+    width: 25%;
+    float: right;
+    padding: 20px 50px 610px 100px;
+    border: 5px solid rgb(15, 15, 15);
+    border-radius: 3%;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-size: 350px 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#img3{
+    background-image: url(Image/PlayStationCard.jpg);
+}
+
+#img4 {
+    background-image: url(Image/cocCard.jpg);
+}
+
+#img5 {
+    background-image: url(Image/iTunesCard.png);
+}
+
+#img6 {
+    background-image: url(Image/nintendoCard.png);
+}
+
+#img7 {
+    background-image: url(Image/ffCard.png);
+}
+#img8 {
+    background-image: url(Image/xboxCard.png);
+}
+
+#img9 {
+    background-image: url(Image/mlCard.png);
+}
+
+#img10 {
+    background-image: url(Image/xbox$50Card.png);
+}
+
+#img11 {
+    background-image: url(Image/crCard.png);
+}
+
+#img12 {
+    background-image: url(Image/ticktockCard.png);
+}
+
+#img13 {
+    background-image: url(Image/steamCard.png);
+}
+
+#img14 {
+    background-image: url(Image/pubgExpCard.png);
+}
+
+#img15 {
+    background-image: url(Image/ffExpCard.png);
+}
+
+product {
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    font-size: inherit;
+    line-height: 1;
+    background: none;
+    border: 2px solid #386397;
+    padding: 0.55em 1.5em;
+    outline: 2px solid #386397;
+    color: #386397;
+    margin: auto;
+    border-radius: 0.5em;
+    transition: outline-offset 250ms ease;
+}
+
+product:hover, product:focus {
+    outline-offset: -6px;
+    background-color: #386397;
+    color: white;
+}
+
+Developer, publisher, type, Region, platform, rate, sellingRate, responceRate, genre, dmode, dtime {
+    display: list-item;
+    list-style: disc;
+    list-style-position: inside;
+}
+
+name {
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+description::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+}
+
+#img1:hover, #img2:hover, #img3:hover, #img4:hover, #img5:hover, #img6:hover, #img7:hover, #img8:hover, #img9:hover, #img10:hover, #img11:hover, #img12:hover, #img13:hover, #img14:hover, #img15:hover {
+    background-color: gainsboro;
+    transform: scale(1.02);
+    transition: all 1s ease;
+}

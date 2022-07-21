@@ -1,0 +1,124 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="main">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="shopLogo"/>
+                <xs:element name="shopName">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <!-- extension element extends an existing simpleType or complexType element -->
+                            <xs:extension base="xs:string">
+                                <!-- xs:unsignedInt is the integers between 0 and 4294967295 -->
+                                <xs:attribute name="regID" type="xs:unsignedInt" use="required" />
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="shopDiscription" type="xs:string"/>
+
+                <xs:element name="comapanyAddress">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="Unitrd Kingdom, London"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                <xs:element name="PhoneNumber">
+                    <xs:simpleType>
+                        <!-- restriction for phonenumber -->
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="\([+0-9]{3}\) [0-9]{4} [0-9]{6}"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                <xs:element name="URL">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="www.oriostore.com.uk"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                <xs:element name="cards">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:choice maxOccurs="unbounded">
+                                <xs:element name="cardImage">
+                                    <xs:complexType>
+                                        <xs:attribute name="id" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="card">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="name" type="xs:string"/>
+                                            <xs:element name="description" type="xs:string"/>
+                                            <xs:element name="type">
+                                                <xs:complexType>
+                                                    <xs:simpleContent>
+                                                        <xs:extension>
+                                                            <xs:restriction base="xs:string">
+                                                                <xs:enumeration value="Card type: Digital Card"/>
+                                                                <xs:enumeration value="Card type: Physical Card"/>
+                                                            </xs:restriction>
+                                                            
+                                                            <!-- attributes of element type -->
+                                                            <xs:attribute name="type" type="xs:string" use="required"/>
+                                                        </xs:extension>
+                                                    </xs:simpleContent>
+                                                </xs:complexType>
+                                            </xs:element>
+                                            <xs:element name="Region">
+                                                <xs:simpleType>
+                                                    <xs:simpleContent>
+                                                        <xs:extension>
+                                                            <xs:restriction base="xs:string">
+                                                                <xs:enumeration value="Region: United Kingdom"/>
+                                                                <xs:enumeration value="Region: Global"/>
+                                                            </xs:restriction>
+                                                        </xs:extension>
+                                                    </xs:simpleContent>
+                                                </xs:simpleType>
+                                            </xs:element>
+                                            <xs:element name="Developer" type="xs:string"/>
+                                            <xs:element name="publisher" type="xs:string"/>
+                                            <xs:element name="platform" type="xs:string"/>
+                                            <xs:element minOccurs="0" name="genre" type="xs:string"/>
+                                            <xs:element name="rate" type="xs:string"/>
+                                            <xs:element minOccurs="0" name="dmode" type="xs:string"/>
+                                            <xs:element minOccurs="0" name="dtime" type="xs:string"/>
+                                            <xs:element minOccurs="0" name="sellingRate" type="xs:string"/>
+                                            <xs:element minOccurs="0" name="responceRate" type="xs:string"/>
+                                            <xs:element name="quantity" type="xs:string"/>
+                                            <xs:element name="price" type="xs:string"/>
+                                            <xs:element name="product">
+                                                <xs:complexType> 
+                                                    <xs:simpleContent>
+                                                        <xs:extension>
+                                                            <xs:restriction base="xs:string">
+                                                                <xs:enumeration value="Available"/>
+                                                                <xs:enumeration value="Out of Stock"/>
+                                                            </xs:restriction>
+                                                            <!-- product attributes -->
+                                                            <xs:attribute name="type" type="xs:string" use="required"/>
+                                                        </xs:extension>
+                                                    </xs:simpleContent>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                        <!-- card attributes -->
+                                        <xs:attribute name="id" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:choice>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+
+

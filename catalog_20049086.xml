@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!--
+    Name: Umesh Shahu Shrestha
+    LondonMetID: 20049086
+    CollegeId: np01cp4s210288
+    class: C11
+-->
+<main xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_20049086.xsd">
+    <shopLogo></shopLogo>
+    <shopName regID="20049086">Orio</shopName>
+    <shopDiscription>
+    <![CDATA[
+        Orio is one of the most successful store located in London, Unitrd Kingdom which sells phusical and degital gift cards. With the help of gift card a user can make purchases at retail stores, gas stations, restaurants and other locations.
+    ]]>
+    </shopDiscription>
+    <comapanyAddress>Unitrd Kingdom, London</comapanyAddress>
+    <PhoneNumber>+44 7911 123456</PhoneNumber>
+    <URL>www.oriostore.com.uk</URL>
+    <cards>
+        <cardImage id="img1"></cardImage>
+        <!--  card of Pubg -->
+        <card id="c1">
+            <name>Pubg</name>
+            <description>
+            <![CDATA[
+                PUBG MOBILE has the highest fidelity items and gameplay experience. PUBG MOBILE can fulfill any wish you might have. Choose from countless firearms and test your marksmanship. Further more details checkout official webside www.pubgmoblie.com.uk.
+            ]]>
+            </description>
+            <!-- Optional Physical Card and Digital card-->
+            <type type="digital">Card Type: Digital Card</type>
+            <Region>Region: United Kingdom</Region>
+            <Developer>Developer: Lightspeed and Quantum</Developer>
+            <publisher>Publisher: Tencent Games and Krafton</publisher>
+            <platform>Platforms: Android, IOS </platform>
+            <!-- Optional -->
+            <rate>Rating: 4.2/5 Stars </rate>
+            <sellingRate>positive seller Rating: 89% </sellingRate>
+            <responceRate>Chat Response Rate: 87% </responceRate>
+            <quantity>Quantity: 10</quantity>
+            <price>Price: £32</price>
+            <!-- Optional Available or N/A-->
+            <product type="Available">Available </product>
+        </card>
+
+        <cardImage id="img2"></cardImage>
+
+        <!--  card of Google Play -->
+        <card id="c2">
+            <name>Google Play</name>
+            <description>
+            <![CDATA[
+                Google Play, also branded as the Google Play Store and formerly Android Market, is a digital distribution service operated and developed by Google. Further more details checkout official webside www.playstore.com.uk.
+            ]]>
+            </description>
+            <!-- Optional Physical Card and Digital card-->
+            <type type="digital">Card Type: Digital Card</type>
+            <Region>Region: United Kingdom</Region>
+            <Developer>Developer: Lightspeed and Quantum</Developer>
+            <publisher>Publisher: Tencent Games and Krafton</publisher>
+            <platform>Platforms: Android, Wear OS, Chrome OS, Web </platform>
+            <genre> Genre: Gift Card </genre>
+            <!-- Optional -->
+            <rate>Rating: 4.3/5 Stars </rate>
+            <sellingRate>positive seller Rating: 87% </sellingRate>
+            <responceRate>Chat Response Rate: 82% </responceRate>
+            <quantity>Quantity: 23</quantity>
+            <price>Price: £45</price>
+            <!-- Optional Available or N/A-->
+            <product type="Available">Available </product>
+        </card>
+
+        <cardImage id="img3"></cardImage>
+
+        <!--  card code of playstation -->
+        <card id="c3">
+            <name>Play Station</name>
+            <description>
+            <![CDATA[
+                PlayStation, video game console released in 1994 by Sony Computer Entertainment. The PlayStation, one of a new generation of 32-bit consoles, signaled Sony's rise to power in the video game world. Further more details checkout official webside www.PlayStation.com.uk.
+            ]]>
+            </description>
+            <!-- Optional Physical Card and Digital card-->
+            <type type="digital">Card Type: Digital Card</type>
+            <Region>Region: United Kingdom</Region>
+            <Developer>Sony Interactive Entertainment</Developer>
+            <publisher>Eastasiasoft, Ratalaika Games and Bandai Namco Entertainment</publisher>
+            <platform>Platforms: PS4, PS5 and PC</platform>
+            <!-- Optional -->
+            <rate>Rating: 4.1/5 Stars </rate>
+            <sellingRate>positive seller Rating: 93% </sellingRate>
+            <responceRate>Chat Response Rate: 91% </responceRate>
+            <quantity>Quantity: 0</quantity>
+            <price>Price: £22</price>
+            <!-- Optional Available or N/A-->
+            <product type="N/A">Out Of Stock</product>
+        </card>
+
+        <cardImage id="img4"></cardImage>
+
+        <!--  card of  Clash of Clans -->
+        <card id="c4">
+            <name>Clash of Clans</name>
+            <description>
+            <![CDATA[
+                Clash of Clans is a 2012 free-to-play mobile strategy video game developed and published by Finnish game developer Supercell. Further more details checkout official webside www.supercell.com.uk.
+            ]]>
+            </description>
+            <!-- Optional Physical Card and Digital card-->
+            <type type="physical">Card type: Physical Card</type>
+            <Region>Region: United Kingdom</Region>
+            <Developer>Developer: Supercell</Developer>
+            <publisher>Publisher: Supercell</publisher>
+            <platform>Platforms: Android, IOS</platform>
+            <genre>Genre: Strategy </genre>
+            <!-- Optional -->
+            <rate>Rating: 4.3/5 Stars </rate>
+            <sellingRate>positive seller Rating: 78% </sellingRate>
+            <responceRate>Chat Response Rate: 72% </responceRate>
+            <quantity>Quantity: 12</quantity>
+            <price>Price: £27</price>
+            <!-- Optional Available or N/A-->
+            <product type="Available">Available </product>
+        </card>
+
+        <cardImage id="img5"></cardImage>
+
+        <!--  card of iTunes -->
+        <card id="c5">
+            <name>iTunes</name>
+            <description>
+            <![CDATA[
+               iTunes is a software program that acts as a media player, media library, mobile device management utility, and the client app for the iTunes Store. Further more details checkout official webside www.appleInc.com.uk.
+            ]]>
+            </description>
+            <!-- Optional Physical Card and Digital card-->
+            <type type="physical">Card type: Physical Card</type>
+            <Region>Region: United Kingdom</Region>
+            <Developer>Developer: Apple Inc</Developer>
+            <publisher>Publisher: Apple Inc</publisher>
+            <platform>Platforms: Android, IOS, Laptop</platform>
+            <genre>Genre: Gift Card </genre>
+            <!-- Optional -->
+            <rate>Rating: 4.4/5 Stars </rate>
+            <sellingRate>positive seller Rating: 88% </sellingRate>
+            <responceRate>Chat Response Rate: 79% </responceRate>
+            <quantity>Quantity: 2</quantity>
+            <price>Price: £67</price>
+            <!-- Optional Available or N/A-->
+            <product type="Available">Available </product>
+        </card>
+
+        <cardImage id="img6"></cardImage>
+
+        <!--  card of Nintendo -->
+        <card id="c6">
+            <name>Nintendo</name>
+            <description>
+            <![CDATA[
+               Nintendo Co., Ltd. is a Japanese multinational video game company. It develops video games and video game consoles. Further more details checkout official webside www.nintendo.com.uk.
+            ]]>
+            </description>
+            <!-- Optional Physical Card and Digital card-->
+            <type type="digital">Card type: Digital Card</type>
+            <Region>Region: United Kingdom</Region>
+            <Developer>Developer: Nintendo Company Ltd</Developer>
+            <publisher>Publisher: Nintendo Company Ltd</publisher>
+            <platform>Platforms: PS3, PlayStation, Laptop</platform>
+            <genre>Genre: Gift Card </genre>
+            <!-- Optional -->
+            <rate>Rating: 3.9/5 Stars </rate>
+            <sellingRate>positive seller Rating: 78% </sellingRate>
+            <responceRate>Chat Response Rate: 59% </responceRate>
+            <quantity>Quantity: 4</quantity>
+            <price>Price: £167</price>
+            <!-- Optional Available or N/A-->
+            <product type="Available">Available </product>
+        </card>
+
+        <cardImage id="img7"></cardImage>
+
+        <!--  card of Free Fire -->
+        <card id="c7">
+            <name>Free Fire</name>
+            <description>
+            <![CDATA[
+               Garena Free Fire, also known as Free Fire, is a battle royale game, developed by 111dots Studio and published by Garena for Android and iOS. Further more details checkout official webside www.ff.garena.com.uk.
+            ]]>
+            </description>
+            <!-- Optional Physical Card and Digital card-->
+            <type type="physical">Card type: Physical Card</type>
+            <Region>Region: United Kingdom</Region>
+            <Developer>Developer: Apple Inc</Developer>
+            <publisher>Publisher:  Garena</publisher>
+            <platform>Platforms: Android, IOS</platform>
+            <genre>Genre: Battle royale game </genre>
+            <!-- Optional -->
+            <rate>Rating: 4.2/5 Stars </rate>
+            <dmode> Delivery mode: Supercell ID </dmode>
+            <dtime>Delivery time: 30 mins </dtime>
+            <quantity>Quantity: 8</quantity>
+            <price>Price: £19</price>
+            <!-- Optional Available or N/A-->
+            <product type="Available">Available </product>
+        </card>
+
+        <cardImage id="img8"></cardImage>
+
+        <!-- card of X-Box -->
+        <card id="c8">
+            <name>X-Box</name>
+            <description>
+            <![CDATA[
+               Xbox, video game console system created by the American company Microsoft. The Xbox, Microsoft's first entry into the world of console electronic gaming, was released in 2001, which placed it in direct competition with Sony's PlayStation 2 and Nintendo's GameCube. Further more details checkout official webside www.xbox.com.uk.
+            ]]>
+            </description>
+            <!-- Optional Physical Card and Digital card-->
+            <type type="digital">Card type: Digital Card</type>
+            <Region>Region: United Kingdom</Region>
+            <Developer>Developer: Microsoft</Developer>
+            <publisher>Publisher:  Microsoft</publisher>
+            <platform>Platforms: XBOX</platform>
+            <!-- Optional -->
+            <rate>Rating: 4.2/5 Stars </rate>
+            <dmode>Delivery mode: KUNYO Account </dmode>
+            <quantity>Quantity: 12</quantity>
+            <price>Price: £97</price>
+            <!-- Optional Available or N/A-->
+            <product type="Available">Available </product>
+        </card>
+
+        <cardImage id="img9"></cardImage>
+
+        <!-- card of Moblie Legends -->
+        <card id="c9">
+            <name>Moblie Legends</name>
+            <description>
+            <![CDATA[
+               Mobile Legends: Bang Bang, commonly referred to as ML or MLBB, is a mobile multiplayer online battle arena game developed and published by Moonton, a subsidiary of ByteDance. Further more details checkout official webside www.mobilelegends.com.uk.
+            ]]>
+            </description>
+            <!-- Optional Physical Card and Digital card-->
+            <type type="digital">Card type: Digital Card</type>
+            <Region>Region: United Kingdom</Region>
+            <Developer>Developer: Moonton</Developer>
+            <publisher>Publisher:  Moonton</publisher>
+            <platform>Platforms:  Android, IOS</platform>
+            <!-- Optional -->
+            <rate>Rating: 4.5/5 Stars </rate>
+            <dmode>Delivery mode: Direct Topup VIA UID AND Username </dmode>
+            <dtime>Delivery time: 10 mins </dtime>
+            <quantity>Quantity: 2</quantity>
+            <price>Price: £102</price>
+            <!-- Optional Available or N/A-->
+            <product type="Available">Available </product>
+        </card>
+
+        <cardImage id="img10"></cardImage>
+
+        <!-- card of X-Box -->
+        <card id="c10">
+            <name>X-Box</name>
+            <description>
+            <![CDATA[
+               Xbox, video game console system created by the American company Microsoft. The Xbox, Microsoft's first entry into the world of console electronic gaming, was released in 2001, which placed it in direct competition with Sony's PlayStation 2 and Nintendo's GameCube. Further more details checkout official webside www.xbox.com.uk.
+            ]]>
+            </description>
+            <!-- Optional Physical Card and Digital card-->
+            <type type="physical">Card type: Physical Card</type>
+            <Region>Region: United Kingdom</Region>
+            <Developer>Developer: Microsoft</Developer>
+            <publisher>Publisher:  Microsoft</publisher>
+            <platform>Platforms: XBOX</platform>
+            <!-- Optional -->
+            <rate>Rating: 3.8/5 Stars </rate>
+            <dmode>Delivery mode: KUNYO Account </dmode>
+            <quantity>Quantity: 1</quantity>
+            <price>Price: £45</price>
+            <!-- Optional Available or N/A-->
+            <product type="Available">Available </product>
+        </card>
+
+        <cardImage id="img11"></cardImage>
+
+        <!--  card of Clash Royale -->
+        <card id="c11">
+            <name>Clash Royale</name>
+            <description>
+            <![CDATA[
+               Clash Royale is a free-to-play real-time strategy video game developed and published by Supercell. The game combines elements from collectible card games, tower defense, and multiplayer online battle arena. Further more details checkout official webside www.clashroyals.com.uk.
+            ]]>
+            </description>
+            <!-- Optional Physical Card and Digital card-->
+            <type type="physical">Card type: Physical Card</type>
+            <Region>Region: United Kingdom</Region>
+            <Developer>Developer: Supercell</Developer>
+            <publisher>Publisher:  Supercell</publisher>
+            <platform>Platforms: Android, IOS</platform>
+            <genre>Genre: Strategy </genre>
+            <!-- Optional -->
+            <rate>Rating: 3.2/5 Stars </rate>
+            <sellingRate>positive seller Rating: 88% </sellingRate>
+            <quantity>Quantity: 0</quantity>
+            <price>Price: £15</price>
+            <!-- Optional Available or N/A-->
+            <product type="N/A">Out of Stock</product>
+        </card>
+
+        <cardImage id="img12"></cardImage>
+
+        <!--  card of Tik Tok -->
+        <card id="c12">
+            <name>Tik Tok</name>
+            <description>
+            <![CDATA[
+               TikTok, known in China as Douyin, is a video-focused social networking service owned by Chinese company ByteDance Ltd. It hosts a variety of short-form user videos, from genres like pranks, stunts, tricks, jokes, dance, and entertainment with durations from 15 seconds to ten minutes. Further more details checkout official webside www.ticktok.com.uk.
+            ]]>
+            </description>
+            <!-- Optional Physical Card and Digital card-->
+            <type type="physical">Card type: Physical Card</type>
+            <Region>Region: Global</Region>
+            <Developer>Developer: ByteDance Ltd</Developer>
+            <publisher>Publisher:  ByteDance Ltd</publisher>
+            <platform>Platforms: Android, IOS</platform>
+            <genre>Genre: Social </genre>
+            <!-- Optional -->
+            <rate>Rating: 4.2/5 Stars </rate>
+            <quantity>Quantity: 0</quantity>
+            <price>Price: £99</price>
+            <!-- Optional Available or N/A-->
+            <product type="N/A">Out Of Stock</product>
+        </card>
+
+        <cardImage id="img13"></cardImage>
+
+        <!-- card of Steam -->
+        <card id="c13">
+            <name>Steam</name>
+            <description>
+            <![CDATA[
+               Steam is a video game digital distribution service and storefront by Valve. It was launched as a standalone software client in September 2003 as a way for Valve to provide automatic updates for their games. Further more details checkout official webside www.steam.com.uk.
+            ]]>
+            </description>
+            <!-- Optional Physical Card and Digital card-->
+            <type type="digital">Card type: Digital Card</type>
+            <Region>Region: Global</Region>
+            <Developer>Developer: Valve</Developer>
+            <publisher>Publisher:  Valve Corporation</publisher>
+            <platform>Platforms:  Steam</platform>
+            <!-- Optional -->
+            <rate>Rating: 4.1/5 Stars </rate>
+            <sellingRate>positive seller Rating: 72% </sellingRate>
+            <responceRate>Chat Response Rate: 69% </responceRate>
+            <quantity>Quantity: 05</quantity>
+            <price>Price: £152</price>
+            <!-- Optional Available or N/A-->
+            <product type="Available">Available </product>
+        </card>
+
+        <cardImage id="img14"></cardImage>
+
+        <!-- card of Pubg -->
+        <card id="c14">
+            <name>Pubg</name>
+            <description>
+            <![CDATA[
+               PUBG MOBILE has the highest fidelity items and gameplay experience. PUBG MOBILE can fulfill any wish you might have. Choose from countless firearms and test your marksmanship. Further more details checkout official webside www.pubgmoblie.com.uk. 
+            ]]>
+            </description>
+            <!-- Optional Physical Card and Digital card-->
+            <type type="digital">Card type: Digital Card</type>
+            <Region>Region: Global</Region>
+            <Developer>Developer:  Tencent Games</Developer>
+            <publisher>Publisher:   Tencent Games</publisher>
+            <platform>Platforms:  Android, IOS</platform>
+            <!-- Optional -->
+            <rate>Rating: 4.0/5 Stars </rate>
+            <sellingRate>positive seller Rating: 52% </sellingRate>
+            <responceRate>Chat Response Rate: 49% </responceRate>
+            <quantity>Quantity: 0</quantity>
+            <price>Price: £12</price>
+            <!-- Optional Available or N/A-->
+            <product type="N/A">Out of Stock</product>
+        </card>
+
+        <cardImage id="img15"></cardImage>
+
+        <!-- Digital card of Free Fire -->
+        <card id="c15">
+            <name>Free Fire</name>
+            <description>
+            <![CDATA[
+               Garena Free Fire, also known as Free Fire, is a battle royale game, developed by 111dots Studio and published by Garena for Android and iOS. Further more details checkout official webside www.ff.garena.com.uk.
+            ]]>
+            </description>
+            <!-- Optional Physical Card and Digital card-->
+            <type type="digital">Card type: Digital Card</type>
+            <Region>Region: Global</Region>
+            <Developer>Developer: Apple Inc</Developer>
+            <publisher>Publisher:  Garena</publisher>
+            <platform>Platforms: Android, IOS</platform>
+            <genre>Genre: Battle Games </genre>
+            <!-- Optional -->
+            <rate>Rating: 2.2/5 Stars </rate>
+            <sellingRate>positive seller Rating: 22% </sellingRate>
+            <responceRate>Chat Response Rate: 39% </responceRate>
+            <quantity>Quantity: 00</quantity>
+            <price>Price: £39</price>
+            <!-- Optional Available or N/A-->
+            <product type="N/A">Out of Stock</product>
+        </card>
+    </cards>
+</main>
